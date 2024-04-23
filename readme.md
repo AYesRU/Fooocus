@@ -410,6 +410,22 @@ Special thanks to [twri](https://github.com/twri) and [3Diva](https://github.com
 
 The log is [here](update_log.md).
 
+## Русский язык / -AYes-
+
+Для включения русского языка, например в Windows необходио отредактировать файл `run.bat` 
+
+    .\python_embeded\python.exe -s Fooocus\entry_with_update.py --language rus
+
+Так же файл `run_anime.bat`
+
+    .\python_embeded\python.exe -s Fooocus\entry_with_update.py --language rus --preset anime
+
+И файл `run_realistic.bat`
+
+    .\python_embeded\python.exe -s Fooocus\entry_with_update.py --language rus --preset realistic
+
+добавить: --language rus
+
 ## Localization/Translation/I18N
 
 **We need your help!** Please help translate Fooocus into international languages.
